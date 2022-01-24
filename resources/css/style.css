@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'Netflix';
+    src: url(/resources/fonts/NetflixSans.ttf);
+}
+
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
+    float: left;
+    font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .topmain {
