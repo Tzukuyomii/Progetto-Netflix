@@ -12,13 +12,32 @@ html, body {
 }
 
 main {
+<<<<<<< HEAD
     width: 100%;
     height: 85%;
+=======
+    height: 75%;
+    width: 100%;
+>>>>>>> 493ed74cfb4fdde6b4cf348d2bd1ad09f48c66ab
     margin: 0;
     float: left;
     font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+footer {
+    height: 25%;
+    width: 100%;
+    margin: 0;
+    float: left;
+    font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.col-foot{
+    float: left;
+}
+>>>>>>> 493ed74cfb4fdde6b4cf348d2bd1ad09f48c66ab
 
 
 .topmain {
