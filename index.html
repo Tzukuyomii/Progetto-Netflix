@@ -10,6 +10,9 @@
 </head>
 <body>
     <main>
+
+        <!-- Parte iniziale del main con realitvo input per email -->
+
         <section class="topmain">
             <nav>
                 <div class="nav-bar-center">
@@ -25,7 +28,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="sect_cont-1">
+            <div class="sect_cont-1">\
                 <div class="center-section">
                     <h1>Film, serie TV e tanto altro. <br>Senza limiti.</h1>
                     <h2>Guarda ciò che vuoi ovunque.Disdici quando vuoi.</h2>
@@ -33,42 +36,47 @@
 
                     <form action="#" class="input_1">
                         <input type="email" name="email" class="email" placeholder="Indirizzo email" required autofocus>
-                        <input type="button" name="button" class="init-button" value="Inizia ">
+                        <input type="button" name="button" class="init-button" value="Inizia >">
                     </form>
                 </div>
             </div>
         </section>
+
+        <!-- box della section centrale del main  -->
+
         <section class="mid-main">
 
-            <div class="container-1">
-                <div class="text-container">
+            <div class="mid-container">
+                <div class="text-container-1">
                     <h1>Goditi Netflix sulla tua TV.</h1>
-                    <h2>Guarda Netflix su smart TV, Playstation, Xbox, Chromecast, Apple TV, lettori Blu-ray e molti altri dispositivi.</h2>
+                    <h2>Guarda Netflix su smart TV, Playstation, Xbox,<br>
+                        Chromecast, Apple TV, lettori Blu-ray e molti <br>
+                        altri dispositivi.</h2>
                 </div>
-                <div class="media-container">
-                    <img src="resources/img/tv.png" alt="tv">
-                    <div>
-                        <video src="resources/video/video-tv.m4v" autoplay loop muted></video>
+                <div class="media-container-1">
+                    <div class="media-1">
+                        <img src="resources/img/tv.png" alt="tv" class="img-1">
+                        <video src="resources/video/video-tv.m4v"  class="video-1" autoplay loop muted></video>
                     </div>
                 </div>
             </div>
 
-            <div class="container-2">
-                <div class="text-container">
+            <div class="mid-container">
+                <div class="text-container-2">
                     <h1>Scarica le tue serie da guardare offline.</h1>
                     <h2>Salva facilmente i tuoi preferiti così avrai sempre qualcosa da guardare.</h2>
                 </div>
-                <div class="">
+                <div class="media-container-2">
                     <img src="resources/img/cel.png" alt="cellulare">
                 </div>
             </div>
 
-            <div class="container-3">
-                <div class="text-container">
+            <div class="mid-container">
+                <div class="text-container-1">
                     <h1>Guarda Netflix ovunque.</h1>
                     <h2>Cellulare, tablet, laptop e TV: scegli tu cosa usare per guardare in streaming film e serie TV senza limiti e senza spendere di più.</h2>
                 </div>
-                <div class="">
+                <div class="media-container-1">
                     <img src="resources/img/device-apple.png" alt="device-apple">
                     <div>
                         <video src="resources/video/video-devices-apple.m4v" autoplay loop muted></video>
@@ -76,12 +84,12 @@
                 </div>
             </div>
 
-            <div class="container-4">
-                <div class="text-containe">
+            <div class="mid-container">
+                <div class="text-container-2">
                     <h1>Crea profili per i bambini.</h1>
                     <h2>I bambini scoprono nuove avventure in compagnia dei loro personaggi preferiti in uno spazio tutto loro già incluso nel tuo abbonamento.</h2>
                 </div>
-                <div class="">
+                <div class="media-container-2">
                     <img src="resources/img/bambini.png" alt="bambini">
                 </div>
             </div>
@@ -89,10 +97,9 @@
         </section>
         <!-- sezione domande frequenti-->
         <section class="bottom-main">
-            <div>
+            <div class="mid-container">
                 <h1>Domande frequenti</h1>
                 <ul>
-                    
                     <button>
                         <li>Cos'è Netflix?</li>
                      </button>
@@ -160,7 +167,7 @@
 
                 <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</p>
 
-                <form action="post">
+                <form action="post" class="bot-form">
                     <input type="email" name="email" class="email" placeholder="Indirizzo email" required>
                     <input type="button" name="button" class="init-button" value="Inizia >">
                 </form>
