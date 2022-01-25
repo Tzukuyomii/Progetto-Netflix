@@ -3,7 +3,7 @@
     src: url(/resources/fonts/NetflixSans.ttf);
 }
 
-html, body, main {
+html, body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -11,6 +11,25 @@ html, body, main {
     font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
+main {
+    height: 75%;
+    width: 100%;
+    margin: 0;
+    float: left;
+    font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+footer {
+    height: 25%;
+    width: 100%;
+    margin: 0;
+    float: left;
+    font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.col-foot{
+    float: left;
+}
 
 
 .topmain {
