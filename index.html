@@ -100,16 +100,31 @@
         </section>
         <!-- sezione domande frequenti-->
         <section class="bottom-main">
-            <div class="mid-container">
+            <div class="mid-container" id="section-ans">
                 <h1>Domande frequenti</h1>
-                <ul>
-                        <input type="checkbox"  id="button-1">
-                        <label for="button-1" id="lab-1" class="button-ans"></label>
+                    <div class="container-ans">
+                        <div class="button-ans">
+                            <div class="title-ans">
+                                <input type="checkbox"  id="button-1" class="check-ans" >
+                                <label for="button-1" id="lab-1" class="lab-ans"></label>
+                            </div>
+                            <div class="img-ans">
+                                <img src="resources/img/x-ans.svg" alt="Button-x">
+                            </div>
+                        </div>
+                        <div class="para-ans">
+                            <p>
+                                Netflix è un servizio di streaming che offre una varietà di serie TV,
+                                film, documentari pluripremiati e tanto altro su una vasta gamma di dispositivi connessi a Internet.
+                            </p>
+                            <p>Guarda quello che vuoi, in qualsiasi momento e senza interruzioni pubblicitarie.
+                                Il tutto a una quota mensile ridotta. C'è sempre qualcosa di nuovo da scoprire:
+                                 aggiungiamo nuovi film e serie TV ogni settimana!
+                            </p>
+                        </div>
+                    </div>
                     <div>
-                        <span>Netflix è un servizio di streaming che offre una varietà di serie TV,
-                             film, documentari pluripremiati e tanto altro su una vasta gamma di dispositivi connessi a Internet.</span>
-                            <br>
-                            <br>
+
                         <span>Guarda quello che vuoi, in qualsiasi momento e senza interruzioni pubblicitarie.
                              Il tutto a una quota mensile ridotta. C'è sempre qualcosa di nuovo da scoprire:
                               aggiungiamo nuovi film e serie TV ogni settimana! </span>
@@ -164,16 +179,15 @@
                              Usa la funzionalità di download per guardare i contenuti mentre sei in viaggio e senza connessione a Internet.
                               Porta Netflix sempre con te.</span>
                     </div>
-                </ul>
-                <br><br>
+
 
                 <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</p>
 
-                <form action="post" class="bot-form">
-                    <input type="email" name="email" class="email" placeholder="Indirizzo email" required>
-                    <input type="button" name="button" class="init-button" value="Inizia >">
-                </form>
             </div>
+            <form action="post" class="bot-form">
+                <input type="email" name="email" class="email" placeholder="Indirizzo email" required>
+                <input type="button" name="button" class="init-button" value="Inizia >">
+            </form>
         </section>
         
     </main>
