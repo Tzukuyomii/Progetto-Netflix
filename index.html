@@ -103,9 +103,8 @@
             <div class="mid-container">
                 <h1>Domande frequenti</h1>
                 <ul>
-                    <button>
-                        <li>Cos'è Netflix?</li>
-                     </button>
+                        <input type="checkbox"  id="button-1">
+                        <label for="button-1" id="lab-1" class="button-ans"></label>
                     <div>
                         <span>Netflix è un servizio di streaming che offre una varietà di serie TV,
                              film, documentari pluripremiati e tanto altro su una vasta gamma di dispositivi connessi a Internet.</span>
@@ -180,7 +179,10 @@
     </main>
     
     <footer>
+        <div class="foot-container">
+        <div class="p-foot" id="domande">
         <p>Domande? Chiama 800-130-364</p>
+        </div>
         <div class="col-foot">
             <ul>
                 <li><a href="#">Domande frequenti</a></li>
@@ -214,13 +216,16 @@
                 <li><a href="https://help.netflix.com/legal/notices">Note legali</a></li>
             </ul>
         </div>
-        <div>
-            <select name="lang" id="lang">
+        <div class="p-foot">
+            <select name="lang" id="lang-foot">
                 <option value="it" id="it">Italiano</option>
                 <option value="en" id="en">Inglese</option>
             </select>
         </div>
+        <div class="p-foot" id="netflix-italia">
         <p>Netflix Italy</p>
+        </div>
+        </div>
     </footer>
     
 </body>

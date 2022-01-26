@@ -18,23 +18,7 @@ main {
     font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
-
-footer {
-    width: 100%;
-    margin: 0;
-    float: left;
-    text-align: center;
-    font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
-    background-color: rgb(0, 0, 0);
-    color: #757575;
-}
-
-.col-foot {
-    float: left;
-    list-style-type: none;
-    text-decoration: none;
-}
-
+/* css-top-main */
 
 .topmain {
     width: 100%;
@@ -174,6 +158,8 @@ nav {
     float: left;
 }
 
+/* css-mid-main */
+
 .mid-container {
     width: 100%;
     float: left;
@@ -288,4 +274,69 @@ nav {
 .bot-form {
     width: 40%;
     margin: 0 auto;
+}
+
+/* css-footer */
+
+footer {
+    width: 100%;
+    margin: 0;
+    float: left;
+    font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: #757575;
+}
+
+.col-foot {
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.foot-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.p-foot {
+    float: left;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.col-foot {
+    float: left;
+
+}
+
+.col-foot ul li{
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.col-foot ul li a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 13px;
+}
+
+#lang-foot {
+    float: left;
+    margin: 0;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border: 1px solid #333;
+    background: rgba(0, 0, 0, 0.5);
+    color: #999;
+    font-style: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 0.875rem;
+}
+
+#domande {
+    margin-top: 40px;
+}
+
+#netflix-italia {
+    font-size: 13px;
 }
