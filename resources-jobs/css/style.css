@@ -30,3 +30,7 @@ html,body {
     margin: 0;
     float: left;
 }
+
+footer {
+    background: black;
+}
