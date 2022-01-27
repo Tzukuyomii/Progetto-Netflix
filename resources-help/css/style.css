@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Netflix Sans,Helvetica,Arial,sans-serif;
+}  
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+#logonetflix {
+    width: 100px;
+    
+}
+
+#link-logo {
+    flex-basis: 7%;
+    margin-left: 60px;
+}
+
+.header-title {
+    flex-basis: 69%;
+}
+
+nav {
+    flex-basis: 19%;
+}
+
+#join-in {
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 3px;
+    width: 120px;
+    height: 35px;
+}
+
+#sign-in {
+    background-color: red;
+    padding: 10px;
+    border-radius: 3px;
+    width: 120px;
+    border: red;
+    height: 35px;
+}
+
+.t-d-none {
+    text-decoration: none;
+    color: white;
+}
+
+.container-1 {
+    padding: 50px;
+}
+
+.img {
+    width: 800px;
+}
+
+
