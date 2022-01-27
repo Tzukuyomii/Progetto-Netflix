@@ -16,6 +16,20 @@ header {
     background-color: black;
 }
 
+main {
+    display: flex;
+}
+
+.left-section {
+    width: 70vw;
+    padding: 50px;
+}
+
+.right-section {
+    padding-top: 200px;
+    width: 30vw;
+}
+
 #logonetflix {
     width: 100px;
     
@@ -57,12 +71,40 @@ nav {
     color: white;
 }
 
-.container-1 {
-    padding: 50px;
+.container-2, .container-3, .container-4, .container-5 {
+    padding: 30px;
 }
 
 .img {
-    width: 800px;
+    width: 60vw;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: rgb(27, 22, 22);
+}
+
+.right-section a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.left-section a {
+    color: red;
+    text-decoration: none;
+}
+
+.left-section a:hover {
+    text-decoration: underline;
+}
+
+.fb-button {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 10px;
+    width: 70px;
+    display: inline;
 }
 
 
