@@ -266,11 +266,6 @@ nav {
 }
 
 
-.bot-form {
-    width: 40%;
-    margin: 0 auto;
-}
-
 /* sezione domande frequenti */
 
 .bottom-main{
@@ -285,7 +280,7 @@ nav {
 
 
 #section-ans {
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
     float: none;
     border: none;
@@ -294,6 +289,8 @@ nav {
 
 .container-ans {
     width: 100%;
+    float: left;
+    margin: 2px 0px;
 }
 
 .button-ans {
@@ -317,35 +314,111 @@ nav {
     width: 100%;
 }
 
-#lab-1::before {
+.lab-ans::before {
     width: 100%;
     text-align: left;
-    content: "Cos'è Netflix?";
     float: left;
     padding: .8em 2.2em .8em 1.2em;
 }
 
-.img-ans {
-    width: 10%;
-    margin: 0;
-    float: left;
+#lab-1::before {
+    content: "Cos'è Netflix?";
 }
 
-.img-ans img {
-    width: 50%;
-    padding: .7em 0;
+#lab-2::before {
+    content: "Quanto costa Netflix?";
 }
+
+#lab-3::before {
+    content: "Dove posso guardare Netflix?";
+}
+
+#lab-4::before {
+    content: "Come posso disdire?";
+}
+
+#lab-5::before {
+    content: "Cosa posso guardare su Netflix?";
+}
+
+#lab-6::before {
+    content: "Netflix è adatto ai bambini?";
+}
+
+
+.img-ans {
+    width: 10%;
+    height: 74.59px;
+    margin: 0;
+    float: left;
+    background-image: url("/resources/img/x-ans.svg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
 
 .para-ans {
     width: 100%;
+    height: 0;
     float: left;
     background-color: #303030;
+    visibility: hidden;
 }
 
 .para-ans p {
     padding: 1.2em;
     margin: 0;
 }
+
+#button-1:checked ~  #contenuto-1,
+#button-2:checked ~  #contenuto-2,
+#button-3:checked ~  #contenuto-3,
+#button-4:checked ~  #contenuto-4,
+#button-5:checked ~  #contenuto-5,
+#button-6:checked ~  #contenuto-6 {
+    height: auto;
+    visibility: visible;
+}
+
+#button-1:checked ~ .button-ans #img-rot-ans-1,
+#button-2:checked ~ .button-ans #img-rot-ans-2,
+#button-3:checked ~ .button-ans #img-rot-ans-3,
+#button-4:checked ~ .button-ans #img-rot-ans-4,
+#button-5:checked ~ .button-ans #img-rot-ans-5,
+#button-6:checked ~ .button-ans #img-rot-ans-6 {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.input-sez-ans {
+    width: 100%;
+    margin: 0;
+}
+
+.bot-form {
+    width: 35%;
+    margin: 0 auto;
+}
+
+#p-ans {
+    font-size: 1.2rem;
+    float: left;
+    margin-top: 50px;
+}
+
+
+
+
+
 
 
 /* css-footer */
