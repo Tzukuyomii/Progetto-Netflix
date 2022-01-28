@@ -5,8 +5,10 @@
   }
 
 body {
-    font-family: Netflix Sans,Helvetica,Arial,sans-serif;
+    font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
 }  
+
+/* CSS-HEADER */
 
 header {
     display: flex;
@@ -15,6 +17,62 @@ header {
     color: white;
     background-color: black;
 }
+
+#logonetflix {
+    width: 100px;    
+}
+
+#link-logo {
+    flex-basis: 7%;
+    margin-left: 60px;
+}
+
+.header-title {
+    flex-basis: 69%;
+    text-decoration: none;
+    color: white;
+}
+
+.header-title:hover {
+    text-decoration: underline;
+}
+
+nav {
+    flex-basis: 19%;
+}
+
+#join-in {
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 3px;
+    width: 120px;
+    height: 35px;
+    color: white;
+}
+
+#join-in:hover {
+    background-color: white;
+    color: rgb(27, 22, 22);
+}
+
+#sign-in {
+    text-decoration: none;
+    background-color: red;
+    padding: 11px 36px;
+    border-radius: 3px;
+    width: 120px;
+    height: 35px;
+    color: white;
+}
+
+#sign-in:hover {
+    background-color: rgb(199, 3, 3);
+}
+
+
+/* CSS-MAIN */
 
 main {
     display: flex;
@@ -27,56 +85,33 @@ main {
 
 .right-section {
     padding-top: 200px;
+    padding-left: 50px;
     width: 30vw;
 }
 
-#logonetflix {
-    width: 100px;
-    
+#main-title {
+    padding-bottom: 35px;
+    font-size: 2.5em;
 }
 
-#link-logo {
-    flex-basis: 7%;
-    margin-left: 60px;
+h2 {
+    padding-bottom: 35px;
 }
 
-.header-title {
-    flex-basis: 69%;
+p {
+    padding: 15px 0;
 }
 
-nav {
-    flex-basis: 19%;
-}
-
-#join-in {
-    background: transparent;
-    border: 1px solid white;
+blockquote {
     padding: 10px;
-    border-radius: 3px;
-    width: 120px;
-    height: 35px;
 }
 
-#sign-in {
-    background-color: red;
-    padding: 10px;
-    border-radius: 3px;
-    width: 120px;
-    border: red;
-    height: 35px;
-}
-
-.t-d-none {
-    text-decoration: none;
-    color: white;
-}
-
-.container-2, .container-3, .container-4, .container-5 {
-    padding: 30px;
+.container-1, .container-2, .container-3, .container-4, .container-5 {
+    padding-bottom: 30px;
 }
 
 .img {
-    width: 60vw;
+    width: 63vw;
 }
 
 .right-section a {
@@ -89,6 +124,10 @@ nav {
     color: red;
 }
 
+.right-section li {
+    padding: 10px;
+}
+
 .left-section a {
     color: red;
     text-decoration: none;
@@ -98,13 +137,26 @@ nav {
     text-decoration: underline;
 }
 
+ol {
+    padding-left: 20px;
+}
+
+.fb-div {
+    padding-top: 20px;
+}
+
 .fb-button {
     background-color: white;
     color: red;
     border: 1px solid red;
-    padding: 10px;
+    padding: 10px 15px;
     width: 70px;
     display: inline;
+    border-radius: 2px;
 }
 
+.fb-button:hover {
+    background-color: red;
+    color: white;
+}
 
