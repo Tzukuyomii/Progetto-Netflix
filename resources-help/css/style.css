@@ -85,15 +85,33 @@ main {
 
 .right-section {
     padding-top: 200px;
+    padding-left: 50px;
     width: 30vw;
 }
 
-.container-2, .container-3, .container-4, .container-5 {
-    padding: 30px;
+#main-title {
+    padding-bottom: 35px;
+    font-size: 2.5em;
+}
+
+h2 {
+    padding-bottom: 35px;
+}
+
+p {
+    padding: 15px 0;
+}
+
+blockquote {
+    padding: 10px;
+}
+
+.container-1, .container-2, .container-3, .container-4, .container-5 {
+    padding-bottom: 30px;
 }
 
 .img {
-    width: 60vw;
+    width: 63vw;
 }
 
 .right-section a {
@@ -106,6 +124,10 @@ main {
     color: red;
 }
 
+.right-section li {
+    padding: 10px;
+}
+
 .left-section a {
     color: red;
     text-decoration: none;
@@ -113,6 +135,14 @@ main {
 
 .left-section a:hover {
     text-decoration: underline;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.fb-div {
+    padding-top: 20px;
 }
 
 .fb-button {
@@ -129,5 +159,4 @@ main {
     background-color: red;
     color: white;
 }
-
 
