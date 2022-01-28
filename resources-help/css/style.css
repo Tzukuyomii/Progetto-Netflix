@@ -137,6 +137,10 @@ blockquote {
     text-decoration: underline;
 }
 
+.left-section li {
+    padding: 8px;
+}
+
 ol {
     padding-left: 20px;
 }
