@@ -12,7 +12,6 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     color: white;
     background-color: black;
@@ -24,7 +23,7 @@ header {
 
 #link-logo {
     flex-basis: 7%;
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 .header-title {
@@ -39,17 +38,21 @@ header {
 
 nav {
     flex-basis: 19%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
 #join-in {
     text-decoration: none;
     background: transparent;
     border: 1px solid white;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 3px;
     width: 120px;
     height: 35px;
     color: white;
+    font-size: 0.8em;
 }
 
 #join-in:hover {
@@ -65,6 +68,8 @@ nav {
     width: 120px;
     height: 35px;
     color: white;
+    font-size: 0.8em;
+
 }
 
 #sign-in:hover {
@@ -76,17 +81,16 @@ nav {
 
 main {
     display: flex;
+    padding: 30px 100px;
 }
 
 .left-section {
-    width: 70vw;
-    padding: 50px;
+    flex-basis: 65%;
 }
 
 .right-section {
-    padding-top: 200px;
-    padding-left: 50px;
-    width: 30vw;
+    padding: 130px 0 0 100px;
+    flex-basis: 35%;
 }
 
 #main-title {
@@ -106,12 +110,13 @@ blockquote {
     padding: 10px;
 }
 
-.container-1, .container-2, .container-3, .container-4, .container-5 {
-    padding-bottom: 30px;
+.img {
+    width: 100%;
 }
 
-.img {
-    width: 63vw;
+hr {
+    margin: 40px 0;
+    box-shadow: none;
 }
 
 .right-section a {
