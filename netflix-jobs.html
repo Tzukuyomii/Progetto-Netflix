@@ -9,41 +9,42 @@
     <title>Netflix Jobs</title>
 </head>
 <body>
+    <header>
+        <div class="container-1">
+            <video class="video-1" src="resources-jobs/video/Netflix-MainHero-V2.mp4" autoplay loop muted type="video/mp4 type">
+        </div>
+        <div class="introduction">
+            <nav>
+                <ul>
+                    <li><a href="https://jobs.netflix.com/teams">TEAMS</a></li>
+                    <li> <a href="https://jobs.netflix.com/locations">LOCATIONS</a></li>
+                    <li> 
+                        <select name="wearenetflix" id="wearenetflix">
+                            <option value="Si">NETFLIX CULTURE MEMO</option>
+                            <option value="No">WORK LIFE PHILOSOPHY</option>
+                            <option value="No">INCLUSION & DIVERSITY</option>
+                            <option value="No">VIDEO</option>
+                            <option value="No">PODCAST</option>
+                            <option value="No">BLOG</option>
+                        </select>
+                    </li>
+                    <li>
+                        <button>Search Jobs</button>
+                    </li>
+                </ul>
+                
+            </nav>
+            <!-- rimuovere la W da videow-->
+            <div>
+                <h1>A great workplace combines exceptional colleagues and hard problems.</h1>
+                <label for="data"></label>
+                <input type="text" name="data" id="data" placeholder="Search jobs by keyword">
+            </div>
+        </div>
+    </header>
     <main>
-        <header>
-            <div class="container-1">
-                <video class="video-1" src="resources-jobs/video/Netflix-MainHero-V2.mp4" autoplay loop muted type="video/mp4 type">
-            </div>
-            <div class="introduction">
-                <nav>
-                    <ul>
-                        <li><a href="https://jobs.netflix.com/teams">TEAMS</a></li>
-                        <li> <a href="https://jobs.netflix.com/locations">LOCATIONS</a></li>
-                        <li> 
-                            <select name="wearenetflix" id="wearenetflix">
-                                <option value="Si">NETFLIX CULTURE MEMO</option>
-                                <option value="No">WORK LIFE PHILOSOPHY</option>
-                                <option value="No">INCLUSION & DIVERSITY</option>
-                                <option value="No">VIDEO</option>
-                                <option value="No">PODCAST</option>
-                                <option value="No">BLOG</option>
-                            </select>
-                        </li>
-                        <li>
-                            <button>Search Jobs</button>
-                        </li>
-                    </ul>
-                    
-                </nav>
-                <!-- rimuovere la W da videow-->
-                <div>
-                    <h1>A great workplace combines exceptional colleagues and hard problems.</h1>
-                    <label for="data"></label>
-                    <input type="text" name="data" id="data" placeholder="Search jobs by keyword">
-                </div>
-            </div>
-        </header>
-    </main>
+       
+
         <div>
             <div>
                 <h1>Freedom and Responsibility</h1>
@@ -94,7 +95,6 @@
                 </button>
             </form>
         </div>
-
         <section>
             <div>
                 <span>| TECH BLOG</span>
@@ -106,7 +106,6 @@
                             Read more
                         </button>
                     </form>
-                
             </div>
             <div>
                 <div>
@@ -120,25 +119,20 @@
                     <p>Entertaiment • 25 Jenuary 2022</p>
                     <span>United States</span>
                     <span>Global</span>
-                    
-                    <form action="https://about.netflix.com/en/news/meet-golden-our-new-channel-celebrating-the-asian-diaspora">
-                        <button type="submit">
-                            READ MORE
-                        </button>
-                    </form>
+                    <!--Bottone senza collegamento-->    
+                    <button type="submit">READ MORE</button>
                 </div>
             </div>
-
-
         </section>
-
-
+    </main>
         <footer>
+            <!-- dividere il footer in grid o in flex, in due colonne-->
             <div>
                 <img src="resources-jobs/img/logosvgnetflixtuttominuscolo.svg" alt="Logo Netflix">
                 <img src="resources-jobs/img/logosvgnetflixjobstuttominuscolo.svg" alt="Logo Jobs">
             </div>
-            <div>
+            <!-- Sezione link ai vari social-->
+            <section>
                 <p>FOLLOW @wearenetflix</p>
                 <img src="resources-jobs/img/logofacebooktuttominuscolo.svg" alt="Logo Facebook">
                 <img src="resources-jobs/img/logotwittertuttominuscolo.svg" alt="Logo Twitter">
@@ -146,7 +140,7 @@
                 <img src="resources-jobs/img/logoyoutubetuttominuscolo.svg" alt="Logo Youtube">
                 <img src="resources-jobs/img/logolinkedintuttominuscolo.svg" alt="Logo Linkedin">
                 <img src="resources-jobs/img/logodiqualcosachenonconoscotuttominuscolo.svg" alt="Logo Sorpresa">
-            </div>
+            </section>
             <div>
                 <ul>
                     <li><a href="http://www.netflix.com/">Netflix.com</a></li>
@@ -157,7 +151,6 @@
                 </ul>
 
             </div>
-            
         </footer>
 </body>
 </html>
