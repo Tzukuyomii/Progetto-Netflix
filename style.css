@@ -8,26 +8,29 @@ body {
     font-family: 'Netflix','Helvetica Neue',Helvetica,Arial,sans-serif;
 }  
 
-/* CSS-HEADER */
+                                                    /* CSS-HEADER */
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     color: white;
     background-color: black;
+}
+
+.box-logo {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
 }
 
 #logonetflix {
     width: 100px;    
 }
 
-#link-logo {
-    flex-basis: 7%;
-    margin-left: 100px;
-}
-
 .header-title {
-    flex-basis: 69%;
     text-decoration: none;
     color: white;
 }
@@ -37,10 +40,10 @@ header {
 }
 
 nav {
-    flex-basis: 19%;
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-right: 100px;
 }
 
 #join-in {
@@ -77,7 +80,7 @@ nav {
 }
 
 
-/* CSS-MAIN */
+                                                   /* CSS-MAIN */
 
 main {
     display: flex;
@@ -93,7 +96,7 @@ main {
     flex-basis: 35%;
 }
 
-#main-title {
+.container-1 h1 {
     padding-bottom: 35px;
     font-size: 2.5em;
 }
@@ -151,17 +154,19 @@ ol {
 }
 
 .fb-div {
-    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .fb-button {
     background-color: white;
-    color: red;
-    border: 1px solid red;
-    padding: 10px 15px;
-    width: 70px;
+    color: rgb(218, 0, 0);
+    border: 1px solid rgb(218, 0, 0);
+    padding: 10px 20px;
+    width: 100px;
     display: inline;
     border-radius: 2px;
+    margin-left: 10px;
+    font-size: 1.2em;
 }
 
 .fb-button:hover {
@@ -169,3 +174,151 @@ ol {
     color: white;
 }
 
+                                                    /* CSS - FOOTER */
+
+.contact-us {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.contact-us span {
+    padding-left: 100px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.contact-us .footer-button {
+    padding-right: 100px;
+}
+
+.footer-button a {
+    color: rgb(31, 31, 31);
+    padding: 10px 10px;
+    border: 1px solid rgb(31, 31, 31);
+    background-color: white;
+    text-decoration: none;
+}
+
+.footer-button a:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.last-div {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-div select {
+    color: rgb(161, 161, 161);
+    background-color: rgb(31, 31, 31);
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.last-div select:hover {
+    background-color: rgb(161, 161, 161);
+    color: white;
+}
+
+.last-div ul {
+    padding-right: 50px;
+}
+
+.last-div li {
+    display: inline;
+    padding: 10px;
+}
+
+.last-div a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    font-size: 0.9em;
+}
+
+.last-div a:hover {
+    text-decoration: underline;
+    color: rgb(236, 236, 236);
+}
+
+@media screen and (max-width: 990px) {
+
+    .box-logo {
+        margin-left: 20px;
+    }
+
+    nav {
+        margin-right: 20px;
+    }
+
+    main {
+        padding: 30px 10px;
+    }
+    
+    .right-section {
+        display: none;
+    }
+
+    .left-section {
+        flex-basis: 100%;
+    }
+
+    .container-1 h1 {
+        font-size: 2em;
+    }
+
+    .fb-div span {
+        display: block;
+        padding: 20px 20px;
+    }
+
+    .contact-us {
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .contact-us span {
+        display: block;
+        padding-left: 5px;
+    }
+
+    .contact-us .footer-button {
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-button a {
+        text-align: center;
+        width: 400px;
+    }
+
+    .last-div li {
+        display: block;
+        padding: 10px;
+    }
+
+    .last-div {
+        height: 300px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+
+    .last-div select {
+        margin-left: 10px;
+    }
+}

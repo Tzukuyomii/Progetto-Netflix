@@ -11,8 +11,10 @@
 
 <body>
     <header>
-        <a id="link-logo" href="https://www.netflix.com/it/"><img src="assets/img/Netflix-logo.png" alt="logo-netflix" id="logonetflix"></a>
-        <a class="header-title" href="https://help.netflix.com/en">| Help Center</a> 
+        <div class="box-logo">
+            <a id="link-logo" href="https://www.netflix.com/it/"><img src="assets/img/Netflix-logo.png" alt="logo-netflix" id="logonetflix"></a>
+            <a class="header-title" href="https://help.netflix.com/en">| Help Center</a> 
+        </div>
         <nav>
             <a id="join-in" href="https://www.netflix.com/signup">JOIN NETFLIX</a>
             <a id="sign-in" href="https://www.netflix.com/it/Login?nextpage=https%3A%2F%2Fhelp.netflix.com%2Fnode%2F412">SIGN IN</a>
@@ -23,7 +25,7 @@
         <section class="left-section">
             <div class="container-1">
                 <a href="https://help.netflix.com/en">- Back to Help Home</a><br><br>
-                <h1 id="main-title">What is Netflix?</h1>
+                <h1>What is Netflix?</h1>
                 <img src="assets/img/what_is_netflix_1.png" alt="img-netflix" class="img">
                 <p>Netflix is a subscription-based <a href="https://help.netflix.com/en/node/85">streaming service</a> that allows our members to watch TV shows and movies without commercials on an internet-connected device.</p>
                 <p>You can also <a href="https://help.netflix.com/en/node/54816">download TV shows and movies</a> to your iOS, Android, or Windows 10 device and watch without an internet connection.</p>
@@ -87,12 +89,14 @@
 
     <footer>
         <div>
-            <div>
-                <h3>Want to contact us?</h3>
-                <a href="#">call us</a>
-                <a href="#">start live chat</a>
+            <div class="contact-us">
+                <span>Want to contact us?</span>
+                <div class="footer-button">
+                    <a href="#">CALL US</a>
+                    <a href="#">START LIVE CHAT</a>
+                </div>
             </div>
-            <div>
+            <div class="last-div">
                 <select name="lang-select" id="lang-select">
                     <option value="id">Bahasa Indonesia</option>
                     <option value="ms">Bahasa Melayu</option>
@@ -125,20 +129,20 @@
                     <option value="ja">日本語</option>
                     <option value="ko">한국어</option>
                 </select>
-            <ul>
-                <li>
-                    <a href="https://help.netflix.com/en/legal/termsofuse">Terms of Use</a>
-                </li>
-                <li>
-                    <a href="https://help.netflix.com/en/legal/privacy">Privacy</a>
-                </li>
-                <li>
-                    <a href="https://help.netflix.com/en/legal/privacy#cookies">Cookie Preferences</a>
-                </li>
-                <li>
-                    <a href="https://help.netflix.com/en/legal/corpinfo">Corporate Information</a>
-                </li>   
-            </ul>  
+                <ul>
+                    <li>
+                        <a href="https://help.netflix.com/en/legal/termsofuse">Terms of Use</a>
+                    </li>
+                    <li>
+                        <a href="https://help.netflix.com/en/legal/privacy">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="https://help.netflix.com/en/legal/privacy#cookies">Cookie Preferences</a>
+                    </li>
+                    <li>
+                        <a href="https://help.netflix.com/en/legal/corpinfo">Corporate Information</a>
+                    </li>   
+                </ul>  
             </div>
         </div>
     </footer>
