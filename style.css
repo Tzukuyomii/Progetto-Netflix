@@ -252,11 +252,11 @@ ol {
 @media screen and (max-width: 990px) {
 
     .box-logo {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     nav {
-        margin-right: 20px;
+        margin-right: 8px;
     }
 
     main {
