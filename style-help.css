@@ -108,21 +108,19 @@ main {
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 20px;
+    width: 170px;
 }
 
 .link-back .arrow:hover {
     transform: translateX(-5px);
     transition: 0.5s;
 }
-
-.back-home .link-back:hover {
-    text-decoration: underline;
-}
                                                         /* ----------------FRECCETTA------------------ */
-.link-back:hover ~ * .arrow {
+.link-back:hover .arrow {
     transform: translateX(-5px);
     transition: 0.5s;
 }
+
 h2 {
     padding-bottom: 35px;
 }
