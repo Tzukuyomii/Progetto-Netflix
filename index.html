@@ -4,287 +4,283 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix italia - Guarda serie TV online, Guarda film online</title>
-    <link rel="icon" href="resources/img/favicon.ico" type="img/x-favicon">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Netflix Italia - Guarda serie TV online, Guarda film online</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="home.css" type="text/css">
 </head>
 <body>
-    <main>
-
-        <!-- Parte iniziale del main con realitvo input per email -->
-
-        <section class="topmain">
-            <nav>
-                <div class="nav-bar-center">
-                    <div class="logo">
-                        <img src="assets/img/Netflix_logo.svg" alt="Netflix-logo" class="svg-logo">
-                    </div>
-                    <div class="menu">
-                        <select name="lang" id="lang">
-                            <option value="it" id="it">Italiano</option>
-                            <option value="en" id="en">Inglese</option>
-                        </select>
-                        <a href="https://www.netflix.com/it/login" class="button">Accedi</a>
-                    </div>
-                </div>
-            </nav>
-            <div class="sect_cont-1">\
-                <div class="center-section">
-                    <h1>Film, serie TV e tanto altro. <br>Senza limiti.</h1>
-                    <h2>Guarda ciò che vuoi ovunque.Disdici quando vuoi.</h2>
-                    <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</p>
-
-                    <form action="#" class="input_1">
-                        <input type="email" name="email" class="email" placeholder="Indirizzo email" required autofocus>
-                        <input type="button" name="button" class="init-button" value="Inizia >">
-                    </form>
-                </div>
+                    <!-- Header con relativa section e navbar-->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/img/Netflix_logo.svg" alt="Logo">
             </div>
+            <div class="menu">
+                <select name="lang" id="lang">
+                    <option value="it">Italiano</option>
+                    <option value="en">Inglese</option>
+                </select>
+                <a href="#">Accedi</a>
+            </div>
+        </nav>
+        <section>
+            <h1>Film, serie TV e tanto altro. <br> Senza limiti.</h1>
+            <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
+            <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti
+                o riattivare il tuo abbonamento.</p>
+            <form action="https://www.netflix.com/signup/registration?locale=it-IT">
+                <input type="email" placeholder="Indirizzo email" required autofocus>
+                <button>Inizia &#10097;</button>
+            </form>
         </section>
-
-        <!-- box della section centrale del main  -->
-
-        <section class="mid-main">
-
-            <div class="mid-container">
-                <div class="text-container-1">
-                    <h1>Goditi Netflix sulla tua TV.</h1>
-                    <h2>Guarda Netflix su smart TV, Playstation, Xbox,<br>
-                        Chromecast, Apple TV, lettori Blu-ray e molti <br>
-                        altri dispositivi.</h2>
+    </header>
+                        <!-- Parte centrale del main con varie section -->
+    <main>
+       <section class="box">
+           <div class="box-cent">
+                <div class="box-text">
+                    <h3>Goditi Netflix sulla tua TV.</h3>
+                    <p>Guarda Netflix su smart TV, Playstation, Xbox, Chromecast,
+                            Apple TV, lettori Blu-ray e molti altri dispositivi.</p>
                 </div>
-                <div class="media-container-1">
-                    <div class="media-1">
-                        <img src="assets/img/tv.png" alt="tv" class="img-1">
-                        <video src="assets/video/video-tv.m4v"  class="video-1" autoplay loop muted></video>
+                <div id="position-rel">
+                    <img src="assets/img/tv.png" alt="Televisore" class="img-1">
+                    <video src="assets/video/video-tv.m4v" autoplay muted loop></video>
+                </div>
+            </div>
+       </section>
+       <section class="box">
+            <div class="box-cent">
+                <div class="cell">
+                    <img src="assets/img/cel.png" alt="Cellulare">
+                </div>
+                <div class="box-text">
+                    <h3>Scarica le tue serie da guardare offline.</h3>
+                    <p>Salva facilmente i tuoi preferiti così
+                        avrai sempre qualcosa da guardare.</p>
+                </div>
+            </div>
+       </section>
+       <section class="box">
+            <div class="box-cent">
+                <div class="box-text">
+                    <h3>Guarda Netflix ovunque.</h3>
+                    <p>Cellulare, tablet, laptop e TV: scegli tu cosa usare per guardare in
+                            streaming film e serie TV senza limiti e senza spendere di più.</p>
                     </div>
+                <div id="position-rel-2">
+                    <img src="assets/img/device-apple.png" alt="Apple device">
+                    <video src="assets/video/video-devices-apple.m4v" autoplay muted loop></video>
                 </div>
             </div>
-
-            <div class="mid-container">
-                <div class="media-container-2">
-                    <img src="assets/img/cel.png" alt="cellulare"  class="cellulare">
-                </div>
-                <div class="text-container-2">
-                    <h1>Scarica le tue serie da guardare offline.</h1>
-                    <h2>Salva facilmente i tuoi preferiti così avrai sempre qualcosa da guardare.</h2>
-                </div>
-            </div>
-
-            <div class="mid-container">
-                <div class="text-container-1">
-                    <h1>Guarda Netflix ovunque.</h1>
-                    <h2>Cellulare, tablet, laptop e TV: scegli tu cosa usare per guardare in streaming film e serie TV senza limiti e senza spendere di più.</h2>
-                </div>
-                <div class="media-container-1">
-                    <div class="media-2">
-                        <img src="assets/img/device-apple.png" alt="device-apple" class="img-2">
-                        <video src="assets/video/video-devices-apple.m4v" class="video-2" autoplay loop muted></video>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mid-container">
-
-                <div class="media-container-2">
+       </section>
+       <section class="box">
+            <div class="box-cent">
+                <div>
                     <img src="assets/img/bambini.png" alt="bambini" class="bambini">
                 </div>
+                <div class="box-text">
+                    <h3>Crea profili per i bambini.</h3>
+                    <p>I bambini scoprono nuove avventure in compagnia dei loro personaggi preferiti
+                        in uno spazio tutto loro già incluso nel tuo abbonamento.</p>
+                </div>
+            </div>
+       </section>
+       <section class="box-ans">
+           <div class="box-cent-ans">
+               <h3>Domande frequenti</h3>
+               <div class="container-ans">
+                    <input type="checkbox"  id="button-1" class="check-ans" >
+                    <div class="button-ans">
+                        <div class="title-ans">
+                            <label for="button-1" id="lab-1" class="lab-ans"></label>
+                        </div>
+                        <div class="img-ans" id="img-rot-ans-1">
+                        </div>
+                    </div>
 
-                <div class="text-container-2">
-                    <h1>Crea profili per i bambini.</h1>
-                    <h2>I bambini scoprono nuove avventure in compagnia dei loro personaggi preferiti in uno spazio tutto loro già incluso nel tuo abbonamento.</h2>
+                    <div class="para-ans" id="contenuto-1">
+                        <p>
+                                Netflix è un servizio di streaming che offre una varietà di serie TV,
+                                film, documentari pluri premiati e tanto altro su una vasta gamma di dispositivi connessi a Internet.
+                        </p>
+                        <p>Guarda quello che vuoi, in qualsiasi momento e senza interruzioni pubblicitarie.
+                                Il tutto a una quota mensile ridotta. C'è sempre qualcosa di nuovo da scoprire:
+                                aggiungiamo nuovi film e serie TV ogni settimana!
+                        </p>
+                    </div>
+                </div>
+                                <!-- Sezione domande frequenti -->
+                <div class="container-ans">
+                    <input type="checkbox"  id="button-2" class="check-ans" >
+                    <div class="button-ans">
+                        <div class="title-ans">
+                            <label for="button-2" id="lab-2" class="lab-ans"></label>
+                        </div>
+                        <div class="img-ans" id="img-rot-ans-2">
+                        </div>
+                    </div>
+
+                    <div class="para-ans" id="contenuto-2">
+                        <p>
+                            Guarda Netflix su smartphone, tablet, Smart TV, laptop o dispositivi per lo streaming
+                            , il tutto per un importo mensile fisso. Piani da 7,99 € a 17,99 € al mese.
+                             Nessun costo aggiuntivo, nessun contratto.
+                        </p>
+                    </div>
                 </div>
 
-            </div>
-
-        </section>
-        <!-- sezione domande frequenti-->
-        <section class="bottom-main">
-            <div class="mid-container" id="section-ans">
-                <h1>Domande frequenti</h1>
-                    <div class="container-ans">
-                        <input type="checkbox"  id="button-1" class="check-ans" >
-                        <div class="button-ans">
-                            <div class="title-ans">
-                                <label for="button-1" id="lab-1" class="lab-ans"></label>
-                            </div>
-                            <div class="img-ans" id="img-rot-ans-1">
-                            </div>
+                <div class="container-ans">
+                    <input type="checkbox"  id="button-3" class="check-ans" >
+                    <div class="button-ans">
+                        <div class="title-ans">
+                            <label for="button-3" id="lab-3" class="lab-ans"></label>
                         </div>
-
-                        <div class="para-ans" id="contenuto-1">
-                            <p>
-                                Netflix è un servizio di streaming che offre una varietà di serie TV,
-                                film, documentari pluripremiati e tanto altro su una vasta gamma di dispositivi connessi a Internet.
-                            </p>
-                            <p>Guarda quello che vuoi, in qualsiasi momento e senza interruzioni pubblicitarie.
-                                Il tutto a una quota mensile ridotta. C'è sempre qualcosa di nuovo da scoprire:
-                                 aggiungiamo nuovi film e serie TV ogni settimana!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="container-ans">
-                        <input type="checkbox"  id="button-2" class="check-ans" >
-                        <div class="button-ans">
-                            <div class="title-ans">
-                                <label for="button-2" id="lab-2" class="lab-ans"></label>
-                            </div>
-                            <div class="img-ans" id="img-rot-ans-2">
-                            </div>
-                        </div>
-                        <div class="para-ans" id="contenuto-2">
-                            <p>
-                                Guarda Netflix su smartphone, tablet, Smart TV, laptop o dispositivi per lo streaming
-                                , il tutto per un importo mensile fisso. Piani da 7,99 € a 17,99 € al mese.
-                                 Nessun costo aggiuntivo, nessun contratto.
-                            </p>
+                        <div class="img-ans" id="img-rot-ans-3">
                         </div>
                     </div>
 
-                    <div class="container-ans">
-                        <input type="checkbox"  id="button-3" class="check-ans" >
-                        <div class="button-ans">
-                            <div class="title-ans">
-                                <label for="button-3" id="lab-3" class="lab-ans"></label>
-                            </div>
-                            <div class="img-ans" id="img-rot-ans-3">
-                            </div>
-                        </div>
-                        <div class="para-ans" id="contenuto-3">
-                            <p>
-                                Guarda Netflix dove vuoi, quando vuoi. Accedi al tuo account per guardare subito
-                                 Netflix dal tuo computer su netflix.com oppure da qualsiasi
-                                dispositivo connesso a Internet che supporta l'app Netflix,
-                                come smart TV, smartphone, tablet, lettori multimediali per streaming e console per videogiochi.
-                            </p>
-                            <p>
-                                Con l'app per iOS, Android e Windows 10 puoi anche scaricare i tuoi
-                                 programmi preferiti. Usa la funzionalità di download per guardare i
-                                contenuti mentre sei in viaggio e senza connessione a Internet. Porta
-                                Netflix sempre con te.
-                            </p>
-                        </div>
+                    <div class="para-ans" id="contenuto-3">
+                        <p>
+                            Guarda Netflix dove vuoi, quando vuoi. Accedi al tuo account per guardare subito
+                             Netflix dal tuo computer su netflix.com oppure da qualsiasi
+                            dispositivo connesso a Internet che supporta l'app Netflix,
+                            come smart TV, smartphone, tablet, lettori multimediali per streaming e console per videogiochi.
+                        </p>
+                        <p>
+                            Con l'app per iOS, Android e Windows 10 puoi anche scaricare i tuoi
+                             programmi preferiti. Usa la funzionalità di download per guardare i
+                            contenuti mentre sei in viaggio e senza connessione a Internet. Porta
+                            Netflix sempre con te.
+                        </p>
+                    </div>
+                </div>
 
+                <div class="container-ans">
+                    <input type="checkbox"  id="button-4" class="check-ans" >
+                    <div class="button-ans">
+                        <div class="title-ans">
+                            <label for="button-4" id="lab-4" class="lab-ans"></label>
+                        </div>
+                        <div class="img-ans" id="img-rot-ans-4">
+                        </div>
                     </div>
 
-                    <div class="container-ans">
-                        <input type="checkbox"  id="button-4" class="check-ans" >
-                        <div class="button-ans">
-                            <div class="title-ans">
-                                <label for="button-4" id="lab-4" class="lab-ans"></label>
-                            </div>
-                            <div class="img-ans" id="img-rot-ans-4">
-                            </div>
-                        </div>
-                        <div class="para-ans" id="contenuto-4">
-                            <p>
-                                Netflix è flessibile. Nessun contratto fastidioso e nessun impegno.
-                                 Puoi facilmente disdire il tuo contratto online con due clic.
-                                 Nessuna penale: attiva o disdici il tuo account in qualsiasi momento.
-                            </p>
-                        </div>
+                    <div class="para-ans" id="contenuto-4">
+                        <p>
+                            Netflix è flessibile. Nessun contratto fastidioso e nessun impegno.
+                             Puoi facilmente disdire il tuo contratto online con due clic.
+                             Nessuna penale: attiva o disdici il tuo account in qualsiasi momento.
+                        </p>
+                    </div>
+                </div>
 
+                <div class="container-ans">
+                    <input type="checkbox"  id="button-5" class="check-ans" >
+                    <div class="button-ans">
+                        <div class="title-ans">
+                            <label for="button-5" id="lab-5" class="lab-ans"></label>
+                        </div>
+                        <div class="img-ans" id="img-rot-ans-5">
+                        </div>
                     </div>
 
-                    <div class="container-ans">
-                        <input type="checkbox"  id="button-5" class="check-ans" >
-                        <div class="button-ans">
-                            <div class="title-ans">
-                                <label for="button-5" id="lab-5" class="lab-ans"></label>
-                            </div>
-                            <div class="img-ans" id="img-rot-ans-5">
-                            </div>
-                        </div>
-                        <div class="para-ans" id="contenuto-5">
-                            <p>
-                                Netflix ha un nutrito catalogo di lungometraggi, documentari, serie TV, anime,
-                                 originali Netflix pluripremiati e tanto altro.
-                                 Guarda tutto quello che vuoi, in qualsiasi momento.
-                            </p>
-                        </div>
+                    <div class="para-ans" id="contenuto-5">
+                        <p>
+                            Netflix ha un nutrito catalogo di lungometraggi, documentari, serie TV, anime,
+                             originali Netflix pluripremiati e tanto altro.
+                             Guarda tutto quello che vuoi, in qualsiasi momento.
+                        </p>
+                    </div>
+                </div>
 
+                <div class="container-ans">
+                    <input type="checkbox"  id="button-6" class="check-ans" >
+                    <div class="button-ans">
+                        <div class="title-ans">
+                            <label for="button-6" id="lab-6" class="lab-ans"></label>
+                        </div>
+                        <div class="img-ans" id="img-rot-ans-6">
+                        </div>
                     </div>
 
-                    <div class="container-ans">
-                        <input type="checkbox"  id="button-6" class="check-ans" >
-                        <div class="button-ans">
-                            <div class="title-ans">
-                                <label for="button-6" id="lab-6" class="lab-ans"></label>
-                            </div>
-                            <div class="img-ans" id="img-rot-ans-6">
-                            </div>
-                        </div>
-                        <div class="para-ans" id="contenuto-6">
-                            <p>
-                                Netflix ha un nutrito catalogo di lungometraggi, documentari, serie TV, anime,
-                                 originali Netflix pluripremiati e tanto altro.
-                                 Guarda tutto quello che vuoi, in qualsiasi momento.
-                            </p>
-                        </div>
-
+                    <div class="para-ans" id="contenuto-6">
+                        <p>
+                            L'area Netflix Bambini, già inclusa nell'abbonamento,
+                             offre ai genitori un maggiore controllo sui contenuti e ai più piccoli
+                            uno spazio dedicato dove guardare serie TV e film per tutta la famiglia.
+                        </p>
+                        <p>
+                            I profili Bambini hanno un filtro famiglia con PIN che ti permette di
+                             limitare l'accesso ai contenuti in base alla
+                             fascia d'età e bloccare la visione di titoli specifici.
+                        </p>
                     </div>
+                </div>
 
-                    <p id="p-ans">Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</p>
-            </div>
+                <p id="p-ans">Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</p>
+
             <div class="input-sez-ans">
-                <form action="post" class="bot-form">
-                    <input type="email" name="email" class="email" placeholder="Indirizzo email" required>
-                    <input type="button" name="button" class="init-button" value="Inizia >">
+                <form action="https://www.netflix.com/signup/registration?locale=it-IT">
+                    <input type="email" placeholder="Indirizzo email" required autofocus>
+                    <button>Inizia &#10097;</button>
                 </form>
             </div>
-        </section>
-        
+
+           </div>
+       </section>
     </main>
-    
+                                <!-- Footer con select e ul-->
     <footer>
-        <div class="foot-container">
-        <div class="p-foot" id="domande">
-        <p>Domande? Chiama 800-130-364</p>
-        </div>
-        <div class="col-foot">
-            <ul>
-                <li><a href="#">Domande frequenti</a></li>
-                <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Rapporti con gli investitori</a></li>
-                <li><a href="https://devices.netflix.com/it/">Come guardare Netflix</a></li>
-                <li><a href="https://help.netflix.com/legal/corpinfo">Informazioni sull'azienda</a></li>
-                <li><a href="https://www.netflix.com/it/browse/genre/839338">Solo su Netflix</a></li>
-            </ul>
-        </div>
-        <div class="col-foot">
-            <ul>
-                <li><a href="https://help.netflix.com/">Centro assistenza</a></li>
-                <li><a href="#">Opportunità di lavoro</a></li>
-                <li><a href="https://help.netflix.com/legal/termsofuse">Condizioni di utilizzo</a></li>
-                <li><a href="https://help.netflix.com/contactus">Contattaci</a></li>
-            </ul>
-        </div>
-        <div class="col-foot">
-            <ul>
-                <li><a href="https://www.netflix.com/youraccount">Account</a></li>
-                <li><a href="https://www.netflix.com/redeem">Riscatta carte regalo</a></li>
-                <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
-                <li><a href="https://fast.com/">Test di velocità</a></li>
-            </ul>
-        </div>
-        <div class="col-foot">
-            <ul>
-                <li><a href="https://media.netflix.com/">Media center</a></li>
-                <li><a href="https://www.netflix.com/gift-cards">Acquista carte regalo</a></li>
-                <li><a href="https://www.netflix.com/it/#">Preferenze per i cookie</a></li>
-                <li><a href="https://help.netflix.com/legal/notices">Note legali</a></li>
-            </ul>
-        </div>
-        <div class="p-foot">
-            <select name="lang" id="lang-foot">
-                <option value="it" id="it">Italiano</option>
-                <option value="en" id="en">Inglese</option>
-            </select>
-        </div>
-        <div class="p-foot" id="netflix-italia">
-        <p>Netflix Italy</p>
-        </div>
-        </div>
+        <section class="box-foot">
+            <div class="foot-container">
+                <div class="p-foot" id="domande">
+                <p>Domande? Chiama 800-130-364</p>
+                </div>
+                <div class="col-foot">
+                    <ul>
+                        <li><a href="#">Domande frequenti</a></li>
+                        <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Rapporti con gli investitori</a></li>
+                        <li><a href="https://devices.netflix.com/it/">Come guardare Netflix</a></li>
+                        <li><a href="https://help.netflix.com/legal/corpinfo">Informazioni sull'azienda</a></li>
+                        <li><a href="https://www.netflix.com/it/browse/genre/839338">Solo su Netflix</a></li>
+                    </ul>
+                </div>
+                <div class="col-foot">
+                    <ul>
+                        <li><a href="https://help.netflix.com/">Centro assistenza</a></li>
+                        <li><a href="#">Opportunità di lavoro</a></li>
+                        <li><a href="https://help.netflix.com/legal/termsofuse">Condizioni di utilizzo</a></li>
+                        <li><a href="https://help.netflix.com/contactus">Contattaci</a></li>
+                    </ul>
+                </div>
+                <div class="col-foot">
+                    <ul>
+                        <li><a href="https://www.netflix.com/youraccount">Account</a></li>
+                        <li><a href="https://www.netflix.com/redeem">Riscatta carte regalo</a></li>
+                        <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+                        <li><a href="https://fast.com/">Test di velocità</a></li>
+                    </ul>
+                </div>
+                <div class="col-foot">
+                    <ul>
+                        <li><a href="https://media.netflix.com/">Media center</a></li>
+                        <li><a href="https://www.netflix.com/gift-cards">Acquista carte regalo</a></li>
+                        <li><a href="https://www.netflix.com/it/#">Preferenze per i cookie</a></li>
+                        <li><a href="https://help.netflix.com/legal/notices">Note legali</a></li>
+                    </ul>
+                </div>
+                <div class="p-foot">
+                    <select name="lang" id="lang-foot">
+                        <option value="it" id="it">Italiano</option>
+                        <option value="en" id="en">Inglese</option>
+                    </select>
+                </div>
+                <div class="p-foot" id="netflix-italia">
+                <p>Netflix Italy</p>
+                </div>
+                </div>
+        </section>
     </footer>
-    
 </body>
 </html>
